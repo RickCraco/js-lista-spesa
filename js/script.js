@@ -2,7 +2,7 @@ let listaSpesa = [];
 
 let basta = false;
 
-while(stop === false){
+while(basta === false){
 
   const prodotto = prompt('inserire un prodotto da comprare');
   
@@ -18,3 +18,5 @@ while(stop === false){
 for(let i = 0; i < listaSpesa.length; i++){
   console.log(listaSpesa[i]);
 }
+
+console.log(listaSpesa);
